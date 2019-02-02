@@ -1,0 +1,154 @@
+/* html {
+  overflow: hidden;
+} */
+
+body {
+  background-color: #c6070c;
+	color: #ffe392;
+	font-family: "Lato", Helvetica, Arial, "ヒラギノ角ゴシック体 GB W6", Hiragino Sans GB W6, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align: center;
+}
+* {
+
+  outline: none;
+
+}
+
+
+/* .navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand {
+  flex-grow: 1;
+}
+.navbar .kb-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mg-r-1 {
+  margin-right: 1rem;
+} */
+
+/* 祝福语 */
+table {
+	padding-top: 80px;
+	 margin: auto;
+	 width: 100%;
+	 table-layout:fixed;
+}
+
+.pinyin {
+	height: 20px;
+	font-size: 1.1em;
+	letter-spacing: 3px;
+	font-weight: 400;
+}
+
+td {
+	font-size: 5em;
+	text-align: center;
+	font-weight: 700;
+	padding: 0px;
+}
+
+/* h2 {
+	margin-top: 15px;
+	margin-bottom: 100px;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	word-spacing: 5px;
+} */
+
+p {
+	font-weight: 700;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.btn {
+	background-color: #ef941a;
+	color: #fffbe2;
+	width: 200px;
+	position: relative;
+	border-radius: 5px;
+	margin: 0;
+	padding: 5px 15px;
+	line-height: 0.5;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+button.btn {
+	margin-top: 30px;
+}
+.btn:hover, .btn:focus {
+	background-color: #efa134;
+}
+
+.btn:active {
+	transform: translate(0px, 2px);
+	-webkit-transform: translate(0px, 2px);
+	}
+	
+/* wifi nav */
+.wifiNav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+}
+.wifiName {
+	display: flex;
+	justify-content: flex-start;
+}
+.action-button {
+	border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fffbe2;
+  position: relative;
+	display: inline-block;
+}
+.yellow {
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+.animate {
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+}
+.action-button:active
+{
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
+	-moz-transform: translate(0px, 5px);
+	-ms-transform: translate(0px, 5px);
+	-o-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+/* .wifi-name {
+	line-height: 60px;
+} */
+/* .container {
+	width: 100vw;
+	height: 80vh;
+} */
+.wifi-name {
+	font-size: 20px;
+	margin-left: 8px;
+}
+.imgwifi {
+	margin-left: 8px;
+}

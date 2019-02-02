@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fan</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--第三库实现wifi样式-->
+  <!-- <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <i class="material-icons mg-r-1">wifi</i>
+        lite wifi
+      </a>
+    </div>
+    <div class="navbar-end">
+      <a class="navbar-item kb-center">
+        <button id="btn" class="button is-danger">复制密码</button>
+      </a>
+    </div>
+  </nav> -->
+  <!--原生写wifi样式-->
+  <div class="container">
+    <div class="wifiNav">
+      <div class="wifiName">
+        <img src="http://shuaiwei.wisecover.org/wifi5.png" class="imgwifi" width="55" height="55">
+        <p class="wifi-name">Fan's wifi</p>
+      </div>
+      <div>
+        <a class="action-button animate yellow">复制密码</a>
+      </div>
+    </div>
+    <!--祝福语页面-->
+    <div>
+    <table>
+      <tr>
+        <th class="pinyin" id="pinyin1">xīn</th>
+        <th class="pinyin" id="pinyin2">nián</th>
+        <th class="pinyin" id="pinyin3">kuài</th>
+        <th class="pinyin" id="pinyin4">lè</th>
+      </tr>
+      <tr>
+        <td id="phraseChinese1">新</td>
+        <td id="phraseChinese2">年</td>
+        <td id="phraseChinese3">快</td>
+        <td id="phraseChinese4">樂</td>
+      </tr>
+    </table>
+    <!-- <h2 id="phraseEnglish">(Happy new year)</h2> -->
+    <button type="button" class="btn">
+      <p>再来一个</p>
+    </button>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script>
+  <script src="js/index.js"></script>
+  <script src="js/wish.js"></script>
+  <script>
+    //通过window.screen.width获取屏幕的宽度
+    var offWidth = window.screen.width / 30; //这里用宽度/30表示1rem取得的px
+    document.getElementsByTagName("html")[0].style.fontSize = offWidth + 'px'; //把rem的值复制给顶级标签html的font-size
+  </script>
+</body>
+
+</html>
